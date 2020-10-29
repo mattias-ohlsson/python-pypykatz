@@ -1,7 +1,7 @@
 %global pypi_name pypykatz
 
 Name:           python-%{pypi_name}
-Version:        0.3.4
+Version:        0.3.13
 Release:        1%{?dist}
 Summary:        Python implementation of Mimikatz
 
@@ -53,5 +53,8 @@ cp -a %{SOURCE1} LICENSE
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %changelog
+* Thu Oct 29 2020 Mattias Ohlsson <mattias.ohlsson@inprose.com> - 0.3.13-1
+- Update to 0.3.13
+
 * Sat Feb 22 2020 Mattias Ohlsson <mattias.ohlsson@inprose.com> - 0.3.4-1
 - Initial build
